@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <EditText 
+            android:inputType="numberDecimal"
+            android:id="@+id/ed1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="number1"/>
+        <EditText 
+            android:inputType="numberDecimal"
+            android:id="@+id/ed2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="number2"/>
+        
+    </LinearLayout>
+    <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <Button
+            android:id="@+id/bt1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="c"></Button>
+              <Button
+            android:id="@+id/bt2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+"></Button>
+                    <Button
+            android:id="@+id/bt3"
+            android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+            android:text="-"></Button>
+                          <Button
+            android:id="@+id/bt4"
+            android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+            android:text="*"></Button>
+                                <Button
+            android:id="@+id/bt5"
+            android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+            android:text="/"></Button>
+      
+    </LinearLayout>
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Result"></TextView>
+    
+
+</LinearLayout>
